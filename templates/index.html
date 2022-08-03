@@ -1,0 +1,5 @@
+<form method="post" action="http://127.0.0.1:8000/api/v1" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="file" name="image" id="image">
+    <button>Enviar</button>
+</form>
